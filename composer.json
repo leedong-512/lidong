@@ -1,0 +1,22 @@
+{
+    "name": "leedong/demo",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "leedong",
+            "email": "leedd521@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": "true",
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "Test\\Client\\": "packages/test/src/"
+    }
+  }
+}
